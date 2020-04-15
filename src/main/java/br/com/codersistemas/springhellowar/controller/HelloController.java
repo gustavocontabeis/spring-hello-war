@@ -13,7 +13,7 @@ public class HelloController {
 	
 	@GetMapping
 	public ResponseEntity<String> listar() {
-		return ResponseEntity.ok("OK");
+		return ResponseEntity.ok("OK2");
 	}
 
 }
